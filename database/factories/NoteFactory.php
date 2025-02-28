@@ -14,7 +14,7 @@ class NoteFactory extends Factory
     public function definition()
     {
         return [
-            'Note' => fake()->realText(100),
+            'Note' => $this->faker->realText(100),
             'user_id' => 1
         ];
     }
