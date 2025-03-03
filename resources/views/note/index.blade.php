@@ -10,6 +10,7 @@
 </head>
 <body>
         <div class="container">
+            <h1>Hello world this is index page</h1>
             @foreach($notes as $note)
             <div class="note_wrapper">
                     <p>{{$note->Note}}</p>
